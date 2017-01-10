@@ -1,0 +1,18 @@
+figure.img-zoom {
+  width: 700px;
+  position: relative;
+  overflow: hidden;
+  cursor: zoom-in;
+  background-repeat: no-repeat;
+}
+
+.img-zoom img {
+  width: 100%;
+  display: block;
+  transition: opacity;
+  transition-duration: 500ms;
+}
+
+.img-zoom img:hover {
+  opacity: 0;
+}
